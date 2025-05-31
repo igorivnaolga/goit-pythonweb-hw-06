@@ -33,9 +33,13 @@ This installs poetry, sets up your project environment, and installs all depende
 Update the config.ini file with your PostgreSQL credentials:
 
 [DB]
+
 PASSWORD=your_db_password
+
 DB_NAME=postgres
+
 DOMAIN=localhost
+
 Ensure your PostgreSQL server is running and the postgres database exists.
 
 ### 📂 Migrations
