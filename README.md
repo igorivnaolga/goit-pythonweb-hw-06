@@ -15,6 +15,7 @@ This project manages students, groups, teachers, subjects, and grades using:
 ### 1. Clone the project
 
 git clone https://github.com/igorivnaolga/goit-pythonweb-hw-06.git
+
 cd goit-pythonweb-hw-06
 
 ### 2. 🧱 Create a virtual environment
@@ -24,6 +25,7 @@ make venv
 ### 3. 🧰 Install all dependencies
 
 make setup
+
 This installs poetry, sets up your project environment, and installs all dependencies.
 
 ### 4.🔧 Configure Database
