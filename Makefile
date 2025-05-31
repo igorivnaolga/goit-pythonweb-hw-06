@@ -9,6 +9,7 @@
         db-show \
         db-upgrade \
         db-seed \
+        run \
         help
 
 # Detect Git Bash on Windows
@@ -70,6 +71,9 @@ db-downgrade:  ## Downgrade by one migration
 
 db-seed: ## Seeding database
 	$(PYTHON) seed.py
+
+run:  ## Run main.py
+	$(PYTHON) main.py
 
 help:  ## Display help screen
 	@grep -h -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
